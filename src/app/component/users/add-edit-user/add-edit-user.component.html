@@ -1,0 +1,86 @@
+<div class="addEdit">
+    <div fxLayout="row">
+        <mat-card>
+            <div fxFlex="30">
+                <div class="image-preview">
+                    <img src="{{programForm.value.profilePhoto}}" alt="Preview">
+                </div>
+            </div>
+            <div fxFlex="70">
+                <form [formGroup]="programForm">
+                    <mat-form-field appearance="fill">
+                        <mat-label>First Name *</mat-label>
+                        <input matInput formControlName="firstName">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>Last Name *</mat-label>
+                        <input matInput formControlName="lastName">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>Email *</mat-label>
+                        <input matInput formControlName="email">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>Personal ID *</mat-label>
+                        <input matInput formControlName="personalId">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>Profile Photo</mat-label>
+                        <input matInput formControlName="profilePhoto">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>Mobile Number *</mat-label>
+                        <input matInput formControlName="mobileNumber">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>Gender *</mat-label>
+                        <mat-select formControlName="gender">
+                            <mat-option value="male">Male</mat-option>
+                            <mat-option value="female">Female</mat-option>
+                        </mat-select>
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>Address</mat-label>
+                        <input matInput formControlName="address">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>City</mat-label>
+                        <input matInput formControlName="city">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>Country</mat-label>
+                        <input matInput formControlName="country">
+                    </mat-form-field>
+
+                    <mat-form-field appearance="fill">
+                        <mat-label>Zip Code</mat-label>
+                        <input matInput formControlName="zipCode">
+                    </mat-form-field>
+
+                    <div class="actions">
+                        <button *ngIf="!isEditMode" mat-raised-button color="primary" (click)="save(programForm)"
+                            [disabled]="programForm.invalid">Save
+                        </button>
+                        <button *ngIf="isEditMode" mat-raised-button color="primary" (click)="edit(programForm)"
+                            [disabled]="programForm.invalid">Update
+                        </button>
+                        <button mat-raised-button color="secondary" routerLink="/users/user-listing/0">Cancel
+                        </button>
+                        <button mat-raised-button color="warn" *ngIf="isEditMode" (click)="delete()"
+                            class="float-right">Delete
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </mat-card>
+    </div>
+</div>

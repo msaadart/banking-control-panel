@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 6029,
+      "firstName": "Muhammad",
+      "lastName": "Nasir",
+      "email": "saadnasir99@gmail.com",
+      "personalId": "12345678956",
+      "profilePhoto": "https://i.ibb.co/pKdGF9M/user-icon.png",
+      "mobileNumber": "+60182426332",
+      "gender": "male",
+      "address": "address",
+      "city": "Karachi",
+      "country": "pakistan",
+      "zipCode": "47180"
+    },
+    {
+      "id": 6463,
+      "firstName": "Muhammad",
+      "lastName": "Asad",
+      "email": "asadKhan@gmail.com",
+      "personalId": "22333444442",
+      "profilePhoto": "https://i.ibb.co/pKdGF9M/user-icon.png",
+      "mobileNumber": "+60182426332",
+      "gender": "male",
+      "address": "address",
+      "city": "kuala lumpur",
+      "country": "Malaysia",
+      "zipCode": "47180"
+    },
+    {
+      "id": 5843,
+      "firstName": "Muhammad",
+      "lastName": "Ahsan",
+      "email": "ahsan@gmail.com",
+      "personalId": "22222222222",
+      "profilePhoto": "https://i.ibb.co/pKdGF9M/user-icon.png",
+      "mobileNumber": "+923362078558",
+      "gender": "male",
+      "address": "address",
+      "city": "kuala lumpur",
+      "country": "Malaysia",
+      "zipCode": "47180"
+    },
+    {
+      "id": 6983,
+      "firstName": "MUHAMMAD SAAD",
+      "lastName": "Waqar",
+      "email": "msunny98@gmail.com",
+      "personalId": "22222223333",
+      "profilePhoto": "https://i.ibb.co/pKdGF9M/user-icon.png",
+      "mobileNumber": "+923362078558",
+      "gender": "male",
+      "address": "L-448 5A1 North Karachi",
+      "city": "Karachi",
+      "country": "Pakistan",
+      "zipCode": "75850"
+    },
+    {
+      "id": 5006,
+      "firstName": "Ss",
+      "lastName": "Hh",
+      "email": "ali@gmail.com",
+      "personalId": "55555555555",
+      "profilePhoto": "https://i.ibb.co/pKdGF9M/user-icon.png",
+      "mobileNumber": "0182426332",
+      "gender": "female",
+      "address": "address",
+      "city": "karachi",
+      "country": "pakistan",
+      "zipCode": "47180"
+    },
+    {
+      "id": 5908,
+      "firstName": "Muhammad",
+      "lastName": "Nasir",
+      "email": "saadnasir99@gmail.com",
+      "personalId": "88888888888",
+      "profilePhoto": "https://i.ibb.co/pKdGF9M/user-icon.png",
+      "mobileNumber": "+923362078558",
+      "gender": "male",
+      "address": "test",
+      "city": "kuala lumpur",
+      "country": "Malaysia",
+      "zipCode": "47180"
+    }
+  ]
+}
